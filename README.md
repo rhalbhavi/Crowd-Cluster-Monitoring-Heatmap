@@ -1,8 +1,12 @@
-# 👥 Crowd & Cluster Monitoring with Heatmap
+<div align="center">
 
+# 👥 Crowd and Cluster Monitoring System with Heatmap
 ### <b>This system integrates computer vision, density-based clustering (DBSCAN), and heatmap generation to deliver real-time crowd density analysis and clustering visualization.</b>
-
 <img width="800" height=auto alt="image" src="https://github.com/user-attachments/assets/04ecfdc7-9ab7-4a47-b0fd-4e12260c7fbf" />
+
+</div>
+
+<br>
 
 ## TABLE OF CONTENTS
 
@@ -47,22 +51,25 @@ This project utilizes **Python** and **OpenCV** to process video feeds, detect i
 
 Here is a screenshot from a run of the project with the bounding boxes around object(s) detected and person and cluster count at the top, as well as heatmap.
 
+<div align="center">
 <img width="800" height=auto alt="image" src="https://github.com/user-attachments/assets/04ecfdc7-9ab7-4a47-b0fd-4e12260c7fbf" />
+</div>
 
 ---
 
 ## Technology Stack
 
 ### Core Language & Logic
-
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 * **Python** – Script execution and main logic
 
 ### Computer Vision
-
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv)
 * **OpenCV (cv2)** – Frame capture, preprocessing, drawing functions, heatmap blending
 
 ### Machine Learning
-
+![DBSCAN](https://img.shields.io/badge/DBSCAN-013243?style=for-the-badge&logo=dbscan)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy)
 * **DBSCAN (Density-Based Spatial Clustering of Applications with Noise)** – Unsupervised machine learning algorithm in scikit-learn that groups together closely packed data points into dense regions (clusters) and identifies points in low-density areas as noise or outliers.
 * **NumPy** – NumPy arrays are the fundamental way images and video frames are stored and accessed in OpenCV's Python bindings. A grayscale image is a 2D array, while a color image is a 3D array (height, width, and color channels, typically BGR). Allows us to perform array and matrix operations such as accessing/modifying pixels, image slicing, cropping, rotation, resizing, and flipping, combining images and adjusting brightness, and drawing lines, rectangles, and text.
 
