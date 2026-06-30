@@ -300,7 +300,7 @@ cv2.destroyAllWindows()```
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/rh3nium/Crowd-Cluster-Monitoring-Heatmap
+git clone https://github.com/riyahal/Crowd-Cluster-Monitoring-Heatmap
 cd Crowd-Cluster-Monitoring-Heatmap
 ````
 
